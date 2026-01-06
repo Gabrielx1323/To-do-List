@@ -4,4 +4,40 @@
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    background-color: deepskyblue;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+text-align: center;
+}
+
+main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+#inputtxt {
+    font-size: 18px;
+    background-color: darkgray;
+    border-radius: 5px;
+}
+
+#inputbtn {
+    font-size: 18px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+}
+
+p {
+     display: flex;
+  justify-content: center; /* centro horizontal */
+  align-items: flex-end;   /* embaixo */
+  height: 300px;
 }
